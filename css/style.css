@@ -54,6 +54,10 @@ body {
 }
 
 
+.front:hover{
+	background-color: rgba(0, 255, 136, 1);
+}
+
 .back{
 	display: in-block;
 	background-color: rgba(0, 152, 218, 1);
@@ -87,6 +91,12 @@ body {
 	font-weight: bold;
 	top: 19%;
 }
+
+
+.back:hover{
+	background-color: rgba(0, 170, 255, 1);
+}
+
 
 @media only screen and (min-width: 300px) and (max-width: 1200px) {
 	.front{
