@@ -7,6 +7,7 @@ body {
 	color: rgba(0, 0, 0, 1);
 	padding: 0;
 	margin: 0;
+	min-width: 100vw;
 }
 
 
@@ -37,9 +38,9 @@ body {
 	position: relative;
 	margin: auto;
 	padding: 0;
-	top: 30%;
-	width: 55%;
-	height: 35%;
+	top: 15%;
+	width: 62%;
+	height: 40%;
 }
 
 .front p{
@@ -49,7 +50,7 @@ body {
 	color: white;
 	font-size: 50pt;	
 	font-weight: bold;
-	top: 26%;
+	top: 11%;
 }
 
 
@@ -71,7 +72,9 @@ body {
 	position: relative;
 	margin: auto;
 	padding: 0;
-	top: 32%;
+	top: 20%;
+	width: 75%;
+	height: 32%;
 
 }
 
@@ -82,5 +85,25 @@ body {
 	color: white;
 	font-size: 50pt;	
 	font-weight: bold;
-	top: 30%;
+	top: 19%;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
+	.front{
+		display: block;
+		width: 100%;
+		height: 50%;
+		position: relative;
+		vertical-align: top;
+	}
+
+	.back{
+		display: block;
+		width: 100%;
+		height: 50%;
+		position: relative;
+		vertical-align: top;
+	}
+}
+
+
