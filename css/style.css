@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* Formatação do Body */	
+body {
+	font-family: Arial; sans-serif;
+	background-color: rgba(29, 15, 54, 1);
+	color: rgba(0, 0, 0, 1);
+	padding: 0;
+	margin: 0;
+}
+
+
+.container{
+	display: block;
+	text-transform: uppercase;
+	background-color: red;
+	text-align: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.front{
+	display: in-block;
+	background-color: rgba(1, 210, 114, 1);
+	text-align: center;
+	float: left;
+	width: 50vw;
+	height: 100%;
+	margin: 0;
+}
+
+.front img{
+	align-items: center;
+	display: block;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	padding: 0;
+	top: 30%;
+	width: 55%;
+	height: 35%;
+}
+
+.front p{
+	font-family: Century Gothic;
+	display: block;
+	position: relative;
+	color: white;
+	font-size: 50pt;	
+	font-weight: bold;
+	top: 26%;
+}
+
+
+.back{
+	display: in-block;
+	background-color: rgba(0, 152, 218, 1);
+	text-align: center;
+	float: right;
+	width: 50vw;
+	height: 100%;
+	margin: 0;
+}
+
+.back img{
+	align-items: center;
+	display: block;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	padding: 0;
+	top: 32%;
+
+}
+
+.back p{
+	font-family: Century Gothic;
+	display: block;
+	position: relative;
+	color: white;
+	font-size: 50pt;	
+	font-weight: bold;
+	top: 30%;
+}
