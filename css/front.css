@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* Formatação do Body */	
+body {
+	background-color: rgba(0, 255, 136, 1);
+	padding:0;
+	margin:0;
+	top:0;
+	width: 100vw;
+	height: 100vh;
+}
+
+
+.container{
+	display: block;
+	position: relative;
+	background-color: rgba(0, 255, 136, 1);
+	width: 100vw;
+	height: 100vh;
+	margin: auto;
+}
+
+
+div#logo{
+	display: block;
+	position: relative;
+	background-color: rgba(0, 255, 136, 1);
+	padding: 10px;
+	margin: 0;
+	width: 100vw;
+	height: 150px;
+}
+div#logo img{
+	display: block;
+	position: absolute;
+	opacity: 0.6;
+	height: 100px;
+	padding: 15px;
+	padding-top: 1%;
+	margin: 0;
+}
+
+
+div#logo img:hover{
+	height: 150px;
+	padding-top: 0;
+	opacity: 1;
+	transition: 0.5s;
+}	
+
+.front{
+	display: block;
+	position: relative;
+	background-color: rgba(0, 255, 136, 1);
+	text-align: center;
+	top: 0;
+	width: 100vw;
+	height: 100%;
+	margin: auto;
+	padding: 0;
+	
+}
+
+
+.front h1{
+	display: block;
+	position: relative;
+	font-family: Century Gothic;
+	font-size: 45pt;
+	text-align: center;
+	top: 5%;
+	padding: 0;
+	margin: 100px 0px 10px 10px;
+	color: rgba(0, 117, 62, 1);
+	font-weight: bold;
+	border: 0;
+}
+
+
+.front h2{
+	display: block;
+	position: relative;
+	font-family: Century Gothic;
+	font-size: 45pt;
+	text-align: center;
+	top: 5%;
+	padding: 0;
+	margin: 100px 0px 0px 0px;
+	color: rgba(0, 117, 62, 1);
+	font-weight: bold;
+	border: 0;
+}
+
+
+.front p{
+	display: block;
+	position: relative;
+	font-family: Candara;
+	font-size: 25pt;	
+	text-align: justify;
+	text-indent: 30pt;
+	padding: 10px 100px 60px 100px;
+	margin: 0;
+	display: block;
+	position: relative;
+	color: white;
+	top: 5%;
+}
+
+a{
+	text-decoration: none;	
+	color: rgba(0, 117, 62, 1);
+}
+
+
+a:hover{
+	color: rgba(0, 46, 25, 1);
+	font-weight: bold;
+}

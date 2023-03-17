@@ -58,6 +58,18 @@ body {
 	background-color: rgba(0, 255, 136, 1);
 }
 
+.front a{
+	text-decoration:none;
+}
+
+
+.front p:hover{
+	font-size: 80pt;
+	transition: 0.5s;
+	letter-spacing: 2px;
+	top: 5%;
+}
+
 .back{
 	display: in-block;
 	background-color: rgba(0, 152, 218, 1);
@@ -96,6 +108,20 @@ body {
 .back:hover{
 	background-color: rgba(0, 170, 255, 1);
 }
+
+
+.back a{
+		text-decoration: none;
+}	
+
+
+.back p:hover{
+	font-size: 80pt;
+	transition: 0.5s;
+	letter-spacing: 2px;
+	top: 10%;
+}
+
 
 
 @media only screen and (min-width: 300px) and (max-width: 1200px) {
