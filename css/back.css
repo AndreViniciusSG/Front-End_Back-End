@@ -91,6 +91,7 @@ div#logo img:hover{
 	border: 0;
 }
 
+
 .front p{
 	display: block;
 	position: relative;
@@ -113,6 +114,66 @@ a{
 
 
 a:hover{
-	color: color: rgba(39, 39, 82, 1);
+	color: rgba(39, 39, 82, 1);
 	font-weight: bold;
 }
+
+
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
+	.front h1{
+	display: block;
+	position: relative;
+	font-family: Century Gothic;
+	font-size: 55pt;
+	text-align: center;
+	top: 0;
+	padding: 10px;
+	margin: 10px 20px 10px 20px;
+	color: rgba(39, 39, 82, 1);
+	font-weight: bold;
+	border: 0;
+}
+
+	.front h2{
+	display: block;
+	position: relative;
+	font-family: Century Gothic;
+	font-size: 55pt;
+	text-align: center;
+	top: 0;
+	padding: 10px;
+	margin: 10px 0px 10px 20px;
+	color: rgba(39, 39, 82, 1);
+	font-weight: bold;
+	border: 0;
+}
+
+
+.front p{
+	display: block;
+	position: relative;
+	font-family: Candara;
+	font-size: 32pt;	
+	text-align: justify;
+	text-indent: 30pt;
+	padding: 10px 100px 60px 100px;
+	margin: 0;
+	display: block;
+	position: relative;
+	color: white;
+	top: 0;
+}
+
+
+div#logo img{
+	height: 150px;
+}
+
+
+div#logo img:hover{
+	height: 150px;
+}	
+
+}
+
+
