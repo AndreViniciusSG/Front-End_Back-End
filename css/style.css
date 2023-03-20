@@ -10,7 +10,15 @@ body {
 	min-width: 100vw;
 }
 
+/* Configuração para fonte externa*/	
+@font-face{
+	font-family: Drakoni;
+	src: url('../fontes/DrakoniSans.otf');
+	font-weight: normal;
+	font-style: normal;
+}
 
+/* Formatação do container principal*/	
 .container{
 	display: block;
 	text-transform: uppercase;
@@ -20,6 +28,7 @@ body {
 	height: 100vh;
 }
 
+/* Formatação da div front */	
 .front{
 	display: in-block;
 	background-color: rgba(1, 210, 114, 1);
@@ -30,6 +39,7 @@ body {
 	margin: 0;
 }
 
+/* Formatação da imagem da div front */	
 .front img{
 	align-items: center;
 	display: block;
@@ -38,13 +48,14 @@ body {
 	position: relative;
 	margin: auto;
 	padding: 0;
-	top: 15%;
-	width: 65%;
-	height: 42%;
+	top: 12%;
+	width: 500px;
 }
 
+/* Formatação do texto da div front */	
 .front p{
-	font-family: Century Gothic;
+	font-family: Drakoni;
+	font-style: normal;
 	display: block;
 	position: relative;
 	color: white;
@@ -53,16 +64,17 @@ body {
 	top: 11%;
 }
 
-
+/* Formatação do fundo da div front com o uso do mouse */	
 .front:hover{
 	background-color: rgba(0, 255, 136, 1);
 }
 
+/* Formatação do link da div front */	
 .front a{
 	text-decoration:none;
 }
 
-
+/* Formatação do link da div front com o uso do mouse */	
 .front p:hover{
 	font-size: 80pt;
 	transition: 0.5s;
@@ -70,6 +82,7 @@ body {
 	top: 5%;
 }
 
+/* Formatação da div back */	
 .back{
 	display: in-block;
 	background-color: rgba(0, 152, 218, 1);
@@ -80,6 +93,7 @@ body {
 	margin: 0;
 }
 
+/* Formatação da imagem da div back */	
 .back img{
 	align-items: center;
 	display: block;
@@ -89,32 +103,31 @@ body {
 	margin: auto;
 	padding: 0;
 	top: 18%;
-	width: 73%;
-	height: 35%;
-
+	width: 600px;
 }
 
+/* Formatação do texto da div back */	
 .back p{
-	font-family: Century Gothic;
+	font-family: Drakoni;
 	display: block;
 	position: relative;
 	color: white;
 	font-size: 50pt;	
 	font-weight: bold;
-	top: 17%;
+	top: 20%;
 }
 
-
+/* Formatação do fundo da div back com o uso do mouse */	
 .back:hover{
 	background-color: rgba(0, 170, 255, 1);
 }
 
-
+/* Formatação do link da div back */	
 .back a{
 		text-decoration: none;
 }	
 
-
+/* Formatação do link da div back com o uso do mouse */	
 .back p:hover{
 	font-size: 80pt;
 	transition: 0.5s;
@@ -122,8 +135,7 @@ body {
 	top: 10%;
 }
 
-
-
+/* Formatação ao diminuir a tela para uso mobile*/	
 @media only screen and (min-width: 300px) and (max-width: 1200px) {
 	.front{
 		display: block;
@@ -143,7 +155,7 @@ body {
 
 
 .front p{
-	font-family: Century Gothic;
+	font-family: Drakoni;
 	display: block;
 	position: relative;
 	color: white;
@@ -168,7 +180,7 @@ body {
 }
 
 .back p{
-	font-family: Century Gothic;
+	font-family: Drakoni;
 	display: block;
 	position: relative;
 	color: white;

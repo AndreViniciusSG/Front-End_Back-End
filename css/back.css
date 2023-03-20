@@ -10,6 +10,22 @@ body {
 	height: 100vh;
 }
 
+/* Configuração para fonte externa dos títulos*/	
+@font-face{
+	font-family: Drakoni;
+	src: url('../fontes/DrakoniSans.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Configuração para fonte externa dos parágrafos*/	
+@font-face{
+	font-family: Sublima;
+	src: url('../fontes/Sublima-Light.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 .container{
 	display: block;
@@ -65,14 +81,14 @@ div#logo img:hover{
 .front h1{
 	display: block;
 	position: relative;
-	font-family: Century Gothic;
+	font-family: Drakoni;
 	font-size: 45pt;
 	text-align: center;
 	top: 0;
 	padding: 0;
 	margin: 0px 0px 10px 10px;
 	color: rgba(39, 39, 82, 1);
-	font-weight: bold;
+	font-weight: normal;
 	border: 0;
 }
 
@@ -80,14 +96,14 @@ div#logo img:hover{
 .front h2{
 	display: block;
 	position: relative;
-	font-family: Century Gothic;
+	font-family: Drakoni;
 	font-size: 45pt;
 	text-align: center;
 	top: 0;
 	padding: 0;
 	margin: 0px 0px 10px 0px;
 	color: rgba(39, 39, 82, 1);
-	font-weight: bold;
+	font-weight: normal;
 	border: 0;
 }
 
@@ -95,11 +111,11 @@ div#logo img:hover{
 .front p{
 	display: block;
 	position: relative;
-	font-family: Candara;
+	font-family: Sublima;
 	font-size: 25pt;	
 	text-align: justify;
 	text-indent: 30pt;
-	padding: 10px 100px 60px 100px;
+	padding: 10px 70px 60px 70px;
 	margin: 0;
 	display: block;
 	position: relative;
@@ -123,28 +139,28 @@ a:hover{
 	.front h1{
 	display: block;
 	position: relative;
-	font-family: Century Gothic;
+	font-family: Drakoni;
 	font-size: 55pt;
 	text-align: center;
-	top: 0;
+	top: 3%;
 	padding: 10px;
 	margin: 10px 20px 10px 20px;
 	color: rgba(39, 39, 82, 1);
-	font-weight: bold;
+	font-weight: normal;
 	border: 0;
 }
 
 	.front h2{
 	display: block;
 	position: relative;
-	font-family: Century Gothic;
+	font-family: Drakoni;
 	font-size: 55pt;
 	text-align: center;
-	top: 0;
+	top: 3%;
 	padding: 10px;
 	margin: 10px 0px 10px 20px;
 	color: rgba(39, 39, 82, 1);
-	font-weight: bold;
+	font-weight: normal;
 	border: 0;
 }
 
@@ -152,16 +168,16 @@ a:hover{
 .front p{
 	display: block;
 	position: relative;
-	font-family: Candara;
+	font-family: Sublima;
 	font-size: 32pt;	
 	text-align: justify;
 	text-indent: 30pt;
-	padding: 10px 100px 60px 100px;
+	padding: 10px 70px 60px 70px;
 	margin: 0;
 	display: block;
 	position: relative;
 	color: white;
-	top: 0;
+	top: 3%;
 }
 
 
