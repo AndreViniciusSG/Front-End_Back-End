@@ -9,4 +9,4 @@ Possui versão para desktop e dispositivos mobile através do uso de design resp
 
 **Versão mobile**
 
-![Layout-FrontEnd-BackEnd-mobile](https://user-images.githubusercontent.com/127248374/226622529-2cf343ff-9f9b-46f2-acff-83bb6352a055.png)
+
